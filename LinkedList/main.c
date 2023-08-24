@@ -14,21 +14,26 @@ int main(){
   PrintData(head);
   printf("Data After Insertion :\n\n");
   ///////////////////////
-  head = AddPosition(head,2,123);
+  head = AddPosition(head,2,123); //ADD BY POSITION//
   PrintData(head);
 ///////////////////////
-int x = Count(head);
+int x = Count(head); //COUNTER//
 printf(" list elements are :%d \n\n:",x);
 ////////////////////////////
 printf("After del first element :\n");
-head = DelFirst(head);
+head = DelFirst(head); //DELETE FIRST NODE //
 PrintData(head);
 ////////////////////////////
 printf("After del :\n\n");
-DelPos(&head,6);
+DelPos(&head,6); // DEL BY POSITION //
 PrintData(head);
     ////////////////////////
-    head =DelAll(head);
+
+    printf("List after reverse :\n");
+    head=ReverseList(head); //REVERSE ALL LIST//
+    PrintData(head);
+    ///////////////
+     head =DelAll(head); //DEL ALL LIST//
     PrintData(head);
     printf("count = %d",Count(head));
   return 0;

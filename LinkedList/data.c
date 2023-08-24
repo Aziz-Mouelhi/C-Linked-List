@@ -159,3 +159,22 @@ data *DelAll(data *head){
       printf("delete succes :\n");
       return head ;
     }
+/////////////////////////////////////////////
+
+
+    data *ReverseList(data* head) {
+    data *next = NULL;
+    data *prev = NULL;
+
+    while (head != NULL) {
+        next = head->next;
+        head->next = prev;
+        prev = head;
+        head = next;
+    }
+    head = prev;
+    return head;
+}
+
+
+

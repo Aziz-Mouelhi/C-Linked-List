@@ -24,4 +24,6 @@ void DelPos(data **head , int pos);
 
 data *DelAll(data *head);
 
+data *ReverseList(data *head);
+
 #endif // DATA_H_INCLUDED
