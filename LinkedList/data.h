@@ -26,4 +26,6 @@ data *DelAll(data *head);
 
 data *ReverseList(data *head);
 
+int Finddata(data *head , int n);
+
 #endif // DATA_H_INCLUDED

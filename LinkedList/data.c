@@ -37,7 +37,7 @@ data* AddEnd(data *ptr, int siz) {
         ptr1->next = NULL;
 
         if (ptr == NULL) {
-            // If the list is empty, set the new node as the head
+
             head = ptr1;
             ptr = head;
         } else {
@@ -50,7 +50,7 @@ data* AddEnd(data *ptr, int siz) {
         i++;
     }
 
-    return head; // Return the new head of the linked list
+    return head;
 }
 data *AddFirst(data *ptr , int siz){
       int i = 0 ;
@@ -160,9 +160,7 @@ data *DelAll(data *head){
       return head ;
     }
 /////////////////////////////////////////////
-
-
-    data *ReverseList(data* head) {
+data *ReverseList(data* head){
     data *next = NULL;
     data *prev = NULL;
 
@@ -175,6 +173,19 @@ data *DelAll(data *head){
     head = prev;
     return head;
 }
-
+int Finddata(data *head , int n){
+            data *ptr = head ;
+        if(ptr == NULL){
+            printf("Your List Is Empty:\n");
+        }else{
+                while(ptr != NULL){
+                    if(ptr->age == n){
+                        return 1 ;
+                    }else{
+                    ptr = ptr->next;}
+                }
+                return 0;
+        }
+}
 
 

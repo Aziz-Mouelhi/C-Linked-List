@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1692876850 source:c:\users\el mouelhi\desktop\linkedlist\c-linked-list\linkedlist\main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"data.h"
+
+1692877650 c:\users\el mouelhi\desktop\linkedlist\c-linked-list\linkedlist\data.h
+
+1692877691 source:c:\users\el mouelhi\desktop\linkedlist\c-linked-list\linkedlist\data.c
+	<stdio.h>
+	<stdlib.h>
+	"data.h"
+
