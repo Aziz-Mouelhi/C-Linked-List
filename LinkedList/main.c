@@ -36,8 +36,14 @@ PrintData(head);
     if(Finddata(head,1)==1)printf("data find\n"); //FINDING DATA//
     else printf("no data find\n");
     ///////////////
+
+    printf("count = %d\n",Count(head));
+    printf("after sorting :\n");
+    head =Sorting(head);
+    PrintData(head);
+    printf("****************");
      head =DelAll(head); //DEL ALL LIST//
     PrintData(head);
-    printf("count = %d",Count(head));
+    printf("count = %d \n",Count(head));
   return 0;
 }

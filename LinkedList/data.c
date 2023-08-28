@@ -187,5 +187,27 @@ int Finddata(data *head , int n){
                 return 0;
         }
 }
+data *Sorting(data *head){
+        data *p , *q , *end , *tmp , *r ;
+        for(end = NULL ; end != head->next ; end = p){
+            for(r = p = head; p->next !=end ;r = p ,p = p->next){
+                q= p->next;
+                if(p->age > q->age){
+                    p->next = q->next;
+                    q->next = p ;
+                    if(p != head){
+                        r->next = q;
+                    }else{
+                    head = q;
+                    tmp = p;
+                    p=q;
+                    q =tmp;
+                    }
+                }
+            }
+        }
+        return head;
+}
+
 
 

@@ -28,4 +28,6 @@ data *ReverseList(data *head);
 
 int Finddata(data *head , int n);
 
+data *Sorting(data *head);
+
 #endif // DATA_H_INCLUDED
