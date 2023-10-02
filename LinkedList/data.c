@@ -27,7 +27,7 @@ data* AddEnd(data *ptr, int siz) {
     int i = 0;
     int ag;
     data *head = ptr;
-        printf("You Have Chosen To Add %d Elements At the end\n\n\n",siz );
+        printf("You Have Chosen To Add %d Elements At the end\n\n\n",siz);
     while (i < siz) {
         printf("Add Element Number %d\n", i + 1);
         scanf("%d", &ag);
