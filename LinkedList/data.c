@@ -187,7 +187,8 @@ int Finddata(data *head , int n){
                 return 0;
         }
 }
-data *Sorting(data *head){
+
+data *SortingEByLinks(data *head){
         data *p , *q , *end , *tmp , *r ;
         for(end = NULL ; end != head->next ; end = p){
             for(r = p = head; p->next !=end ;r = p ,p = p->next){
@@ -209,5 +210,17 @@ data *Sorting(data *head){
         return head;
 }
 
-
-
+ void SortingByData(data *head){
+        data *p , *q , *end;
+        int temp;
+        for(end = NULL ; end != head->next ;end = p){
+            for(p = head ; p->next != end ; p = p->next){
+                q = p ->next;
+                if(p->age > q->age){
+                    temp = p->age;
+                    p->age = q->age;
+                    q->age = temp;
+                }
+            }
+        }
+}

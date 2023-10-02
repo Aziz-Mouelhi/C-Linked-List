@@ -38,12 +38,18 @@ PrintData(head);
     ///////////////
 
     printf("count = %d\n",Count(head));
-    printf("after sorting :\n");
-    head =Sorting(head);
+    printf("after sorting by links :\n");
+    head =SortingEByLinks(head);
     PrintData(head);
-    printf("****************");
-     head =DelAll(head); //DEL ALL LIST//
+    printf("****************\n");
+    printf("after sorting by data:\n");
+    head=AddFirst(head,2);
+    SortingByData(head);
+    PrintData(head);
+    printf("***********************\n");
+    head =DelAll(head); //DEL ALL LIST//
     PrintData(head);
     printf("count = %d \n",Count(head));
   return 0;
 }
+
