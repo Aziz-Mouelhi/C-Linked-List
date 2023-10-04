@@ -30,7 +30,7 @@ PrintData(head);
     ////////////////////////
 
     printf("List after reverse :\n");
-    head=ReverseList(head); //REVERSE ALL LIST//
+    head=ReverseList(head); //REVERSE ALL ELEMENTS//
     PrintData(head);
     ///////////////////////////
     if(Finddata(head,1)==1)printf("data find\n"); //FINDING DATA//

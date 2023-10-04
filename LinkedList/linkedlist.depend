@@ -19,3 +19,16 @@
 
 1696256387 c:\users\elmouelhi\desktop\github\c-linked-list\linkedlist\data.h
 
+1696451592 source:/home/elmouelhi/Bureau/Github/C-Linked-List/LinkedList/data.c
+	<stdio.h>
+	<stdlib.h>
+	"data.h"
+
+1696451592 /home/elmouelhi/Bureau/Github/C-Linked-List/LinkedList/data.h
+
+1696451592 source:/home/elmouelhi/Bureau/Github/C-Linked-List/LinkedList/main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"data.h"
+
