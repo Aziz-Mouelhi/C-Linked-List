@@ -22,7 +22,7 @@ data *DelFirst(data *head);
 
 void DelPos(data **head , int pos);
 
-data *DelAll(data *head);
+void DelAll(data **head);
 
 data *ReverseList(data *head);
 

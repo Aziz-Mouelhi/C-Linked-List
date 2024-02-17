@@ -12,12 +12,18 @@
 	<stdlib.h>
 	"data.h"
 
-1696256412 source:c:\users\elmouelhi\desktop\github\c-linked-list\linkedlist\data.c
+1708213521 source:c:\users\elmouelhi\desktop\github\c-linked-list\linkedlist\data.c
 	<stdio.h>
 	<stdlib.h>
 	"data.h"
 
-1696256387 c:\users\elmouelhi\desktop\github\c-linked-list\linkedlist\data.h
+1708213551 c:\users\elmouelhi\desktop\github\c-linked-list\linkedlist\data.h
+
+1708213366 source:c:\users\elmouelhi\desktop\github\c-linked-list\linkedlist\main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"data.h"
 
 1696451592 source:/home/elmouelhi/Bureau/Github/C-Linked-List/LinkedList/data.c
 	<stdio.h>

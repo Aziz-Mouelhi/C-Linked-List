@@ -149,17 +149,21 @@ void DelPos(data **head , int pos){
         }
       }
     ///////////////////////////////////////
-data *DelAll(data *head){
-      data *temp = head ;
-      while(temp != NULL){
-        temp = temp->next;
-        free(head);
-        head = temp ;
-      }
-      printf("delete succes :\n");
-      return head ;
+void DelAll(data **head) {
+    data *current = *head;
+    data *next;
+
+    while (current != NULL) {
+        next = current->next;
+        free(current);
+        current = next;
     }
-/////////////////////////////////////////////
+
+    // After all nodes are deleted, set head to NULL
+    *head = NULL;
+
+    printf("All nodes deleted successfully.\n");
+}/////////////////////////////////////////
 data *ReverseList(data* head){
     data *next = NULL;
     data *prev = NULL;

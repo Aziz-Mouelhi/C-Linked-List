@@ -47,7 +47,7 @@ PrintData(head);
     SortingByData(head);
     PrintData(head);
     printf("***********************\n");
-    head =DelAll(head); //DEL ALL LIST//
+    DelAll(&head); //DEL ALL LIST//
     PrintData(head);
     printf("count = %d \n",Count(head));
   return 0;
